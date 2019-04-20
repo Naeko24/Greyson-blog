@@ -411,7 +411,7 @@ ref : 用于指定其他的bean类型数据，它指的就是在Spring容器中�
 
 第二步：引入约束,注意此处约束多了xmlns:context...
 
-第三步：添加配置文件，告知spring在创建容器时要扫描的包，配置所需的标签不是在bean约束中，而是一个名称为context的名称孔家和约束中,完整配置如下：
+第三步：添加配置文件，告知spring在创建容器时要扫描的包，配置所需的标签不是在bean约束中，而是一个名称为context的名称空间和约束中,完整配置如下：
 
     <?xml version="1.0" encoding="UTF-8"?>
     <beans xmlns="http://www.springframework.org/schema/beans"
